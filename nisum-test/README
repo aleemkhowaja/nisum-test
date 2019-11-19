@@ -1,1 +1,52 @@
 
+Persona - Spring Boot Application
+====================================
+
+
+#### Requirements
+1. Java 8
+2. Tomcat 8
+
+apache-maven-4.0.0
+
+## Accessing Application
+Based on the properties specified to start application, Persona can be accessed at:
+
+
+##get All Personas
+http://localhost:8080/persona/findAll
+
+
+
+##Save Persona
+Post:
+
+http://localhost:8080/persona/save
+
+{	
+    "name": "Rakesh",
+    "lastName": "aa",
+    "address": "bb",
+    "phoneNumber": 123,
+    "hairColorEnum": "YELLOW"
+}
+
+
+
+##edit by id
+GET
+
+http://localhost:8080/persona/edit/1
+
+
+
+
+
+##delete by id
+GET
+
+http://localhost:8080/persona/delete/4
+
+
+
+
